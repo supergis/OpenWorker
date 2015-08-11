@@ -56,5 +56,9 @@ fi
 sudo python3 setup.py install
 cd ..
 
+#https://github.com/celery/py-amqp/zipball/master
+#https://github.com/celery/billiard/zipball/master
+#https://github.com/celery/kombu/zipball/master
+
 echo "======OpenWorker related project now git cloned and install.================="
 
