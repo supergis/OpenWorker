@@ -1,0 +1,3 @@
+echo "Starting worker proj"
+celery -A proj worker -l info
+

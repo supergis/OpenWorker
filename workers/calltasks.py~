@@ -3,7 +3,7 @@ from tasks import add
 import time
 result = add.delay(4,4)
 
-print("Waiting result...")
+print "Waiting result..." 
 while not result.ready():
   print(time.now(),"not ready...")
   time.sleep(1)
